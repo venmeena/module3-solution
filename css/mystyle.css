@@ -9,9 +9,6 @@ p
 {
 	color:#000;
 }
-.row {
-	background-color: #B0B0B0;
-}
 .text-center {
   	font-size:1.6em;
   	font-family: 'Arial', serif;
@@ -24,6 +21,7 @@ h5 {
   	font-weight:bold;	
 }
 .menu-item {
+	background-color: #B0B0B0;
 	padding: 10px;
 	border: 1px solid #000;
 	margin:10px;
