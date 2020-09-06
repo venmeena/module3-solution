@@ -1,1 +1,91 @@
 
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+p
+{
+	color:#000;
+}
+.row {
+	background-color: #B0B0B0;
+}
+.text-center {
+  	font-size:1.6em;
+  	font-family: 'Arial', serif;
+  	font-weight:bold;
+  }
+h5 {
+  	text-align: center;
+  	font-size:1.2em;
+  	font-family: 'Arial', serif;
+  	font-weight:bold;	
+}
+.menu-item {
+	padding: 10px;
+	border: 1px solid #000;
+	margin:10px;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -65px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+#nav-list {
+	margin-top: -10px;
+}
+    
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+ }
+  /* END HEADER */
