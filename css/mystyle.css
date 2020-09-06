@@ -82,8 +82,12 @@ h5 {
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
     font-size: 6vw;
+    font-family: 'Arial', serif;
+  color: #000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
   }
  }
   /* END HEADER */
